@@ -1,23 +1,13 @@
-/*!
- * Start Bootstrap - Agency v5.2.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
-
  body {
     overflow-x: hidden;
-    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Roboto Slab', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
- 
-
   p {
     line-height: 1.75;
-  }
-  
+  } 
   a {
     color: #212529;
   }
-  
   a:hover {
     color: #212529;
   }
@@ -33,11 +23,11 @@
   h5,
   h6 {
     font-weight: 700;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI',' Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   .page-section {
-    padding: 100px 0;
+    padding: 30px 0;
   }
   
   .page-section h2.section-heading {
@@ -50,14 +40,14 @@
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 75px;
+    margin-bottom:50px;
     text-transform: none;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Droid Serif', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI',' Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   @media (min-width: 768px) {
     section {
-      padding: 150px 0;
+      padding: 100px 0;
     }
   }
   
@@ -84,7 +74,7 @@
   }
   
   .btn {
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI',' Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-weight: 700;
   }
   
@@ -108,7 +98,7 @@
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
   }
   
-  #mainNav {
+  /* #mainNav {
     background-color: #212529;
   }
   
@@ -120,12 +110,12 @@
     color: white;
     border: 0;
     background-color: #212529;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Montserrat',' -apple-system',' BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   #mainNav .navbar-brand {
     color: #212529;
-    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Montserrat',' -apple-system',' BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -138,7 +128,7 @@
     padding: 0.75em 0;
     letter-spacing: 1px;
     color: white;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Montserrat',' -apple-system',' BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -170,11 +160,11 @@
       padding: 12px 0;
     }
   }
-  
-  header.masthead {
+   */
+  /* header.masthead {
     text-align: center;
     color: white;
-    background-image: url("/src/assets/home.jpg");
+    background-image: url("../../../assets/home.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -191,7 +181,7 @@
     font-style: italic;
     line-height: 22px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Droid Serif', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   header.masthead .intro-text .intro-heading {
@@ -199,7 +189,7 @@
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Droid Serif', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   @media (min-width: 768px) {
@@ -212,17 +202,17 @@
       font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Droid Serif', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Droid Serif', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     }
   }
-  
+   */
   .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -236,7 +226,7 @@
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     cursor: pointer;
   }
@@ -253,13 +243,15 @@
   #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
   }
-  
+  #imgCat{
+    text-align: center;
+  }
   #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     font-size: 20px;
     position: absolute;
     top: 50%;
     width: 100%;
-    height: 20px;
+    height: 10px;
     margin-top: -12px;
     text-align: center;
     color: white;
@@ -275,7 +267,7 @@
   }
   
   #portfolio .portfolio-item .portfolio-caption {
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 25px;
     text-align: center;
@@ -291,7 +283,7 @@
     font-size: 16px;
     font-style: italic;
     margin: 0;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Droid Serif',' -apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   #portfolio * {
@@ -327,7 +319,7 @@
     font-size: 16px;
     font-style: italic;
     margin: 20px 0 30px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Droid Serif',' -apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   .portfolio-modal .modal-content ul.list-inline {
@@ -414,7 +406,7 @@
     position: relative;
     float: right;
     width: 100%;
-    padding: 0 20px 0 100px;
+    padding: 0 20px 0 90px;
     text-align: left;
   }
   
@@ -436,14 +428,14 @@
     position: absolute;
     z-index: 100;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
+    border: 1px solid #e9ecef;
     border-radius: 100%;
-    background-color: #fed136;
+  
   }
   
   .timeline > li .timeline-image h4 {
@@ -495,7 +487,7 @@
       left: 50%;
     }
     .timeline > li {
-      min-height: 100px;
+      min-height: 90px;
       margin-bottom: 100px;
     }
     .timeline > li .timeline-panel {
@@ -514,6 +506,8 @@
       font-size: 13px;
       line-height: 18px;
       margin-top: 16px;
+      color: #222427;
+     
     }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
@@ -563,29 +557,7 @@
       padding: 0 100px 20px 20px;
     }
   }
-  
-  .team-member {
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  
-  .team-member img {
-    width: 225px;
-    height: 225px;
-    border: 7px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-  }
-  
-  .team-member p {
-    margin-top: 0;
-  }
-  
-  section#contact {
+    section#contact {
     background-color: #212529;
     background-image: url("/src/assets/home.jpg");
     background-repeat: no-repeat;
@@ -614,72 +586,31 @@
   }
   
   section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #0a0c72;
     box-shadow: none;
   }
   
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
     color: #ced4da;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   section#contact :-moz-placeholder {
     font-weight: 700;
     color: #ced4da;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #ced4da;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   section#contact :-ms-input-placeholder {
     font-weight: 700;
     color: #ced4da;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
-  
-  .footer {
-    padding: 25px 0;
-    text-align: center;
-  }
-  
-  .footer span.copyright {
-    font-size: 90%;
-    line-height: 40px;
-    text-transform: none;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
-  
-  .footer ul.quicklinks {
-    font-size: 90%;
-    line-height: 40px;
-    margin-bottom: 0;
-    text-transform: none;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
-  
-  ul.social-buttons {
-    margin-bottom: 0;
-  }
-  
-  ul.social-buttons li a {
-    font-size: 20px;
-    line-height: 50px;
-    display: block;
-    width: 50px;
-    height: 50px;
-    transition: all 0.3s;
-    color: white;
-    border-radius: 100%;
-    outline: none;
-    background-color: #212529;
-  }
-  
-  ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-    background-color: #fed136;
-  }
-  
+ 
