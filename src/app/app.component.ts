@@ -8,5 +8,3 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-project';
 }
-userModel=new
-User('Ibrahim',111256,'ibrahimghazaly88@gmail.com','123456')
