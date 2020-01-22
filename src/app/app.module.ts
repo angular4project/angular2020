@@ -15,6 +15,17 @@ import { HeaderComponent } from './components/header/header.component';
 import { BodyComponent } from './components/body/body.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {FormsModule} from '@angular/forms';
+import { SonyComponent } from './components/camera/sony/sony/sony.component';
+import { NikonComponent } from './components/camera/nikon/nikon/nikon.component';
+import { PanasonicComponent } from './components/camera/Panasonic/panasonic/panasonic.component';
+import { OlympusComponent } from './components/camera/Olympus/olympus/olympus.component';
+import { FujifilmComponent } from './components/camera/Fujifilm/fujifilm/fujifilm.component';
+import { HPComponent } from './components/labtops/HP/hp/hp.component';
+import { DellComponent } from './components/labtops/Dell/dell/dell.component';
+import { LenovoComponent } from './components/labtops/Lenovo/lenovo/lenovo.component';
+import { SamsongComponent } from './components/labtops/Samsong/samsong/samsong.component';
+import { AppleComponent } from './components/labtops/Apple/apple/apple.component';
+import { CategoryComponent } from './components/category/category.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +40,18 @@ import {FormsModule} from '@angular/forms';
     CameraComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    SonyComponent,
+    NikonComponent,
+    PanasonicComponent,
+    OlympusComponent,
+    FujifilmComponent,
+    HPComponent,
+    DellComponent,
+    LenovoComponent,
+    SamsongComponent,
+    AppleComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
