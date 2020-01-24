@@ -14,6 +14,18 @@ export class EnrollmentService {
 enroll(user:User)
 {
 return this._http.post<any>(this._url,user);
+
+
 }
+
+
+
+loginuser(usersign){
+  return this._http.post<any>(this._url,usersign);
+
+
+}
+
+
 
 }
