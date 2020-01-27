@@ -18,6 +18,7 @@ import { MobileComponentComponent } from './components/mobile-component/mobile-c
 import { CameraComponentComponent } from './camera-component/camera-component.component';
 import { LabtopComponentComponent } from './components/labtop-component/labtop-component.component';
 import { AboutUsComponent } from './components/component/about-us/about-us.component';
+import { MobileDetailsComponent } from './components/mobile-details/mobile-details.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { AboutUsComponent } from './components/component/about-us/about-us.compo
     MobileComponentComponent,
     CameraComponentComponent,
     LabtopComponentComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    MobileDetailsComponent
   ],
   imports: [
     BrowserModule,

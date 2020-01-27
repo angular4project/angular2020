@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-mobile-component',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MobileComponentComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private router:Router) { }
+  mobiles=[
+    {"id":1, "name":"Product Details"},
+    {"id":2, "name":"Product Details"},
+    {"id":3, "name":"Product Details"},
+    {"id":4, "name":"Product Details"},
+  ]
   ngOnInit() {
+   
   }
-
+  
+  onSelect(det){
+   
+ this.router.navigate(["/mobiledetails",det.id]);
+}
 }
