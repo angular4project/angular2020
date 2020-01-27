@@ -13,6 +13,11 @@ import { BodyComponent } from './components/body/body.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {FormsModule} from '@angular/forms';
 import { CategoryComponent } from './components/category/category.component';
+import { CategoryProductComponent } from './category-product/category-product.component';
+import { MobileComponentComponent } from './components/mobile-component/mobile-component.component';
+import { CameraComponentComponent } from './camera-component/camera-component.component';
+import { LabtopComponentComponent } from './components/labtop-component/labtop-component.component';
+import { AboutUsComponent } from './components/component/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +30,12 @@ import { CategoryComponent } from './components/category/category.component';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    CategoryComponent
+    CategoryComponent,
+    CategoryProductComponent,
+    MobileComponentComponent,
+    CameraComponentComponent,
+    LabtopComponentComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

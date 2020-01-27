@@ -1,0 +1,10 @@
+
+  a:link, a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+   color: lightslategrey;
+}

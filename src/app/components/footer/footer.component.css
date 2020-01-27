@@ -134,10 +134,67 @@
     color: white;
     border-radius: 100%;
     outline: none;
-    background-color: #212529;
+    background-color: palevioletred;
   }
   
   ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     background-color: #0d0a8d;
   }
+  section#contact {
+    background-color: palevioletred;
+    background-image: url("/src/assets/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   
+  section#contact .section-heading {
+    color: #fff;
+  }
+  
+  section#contact .form-group {
+    margin-bottom: 25px;
+  }
+  
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 20px;
+  }
+  
+  section#contact .form-group input.form-control {
+    height: auto;
+  }
+  
+  section#contact .form-group textarea.form-control {
+    height: 248px;
+  }
+  
+  section#contact .form-control:focus {
+    border-color: #0a0c72;
+    box-shadow: none;
+  
+  }
+  
+  section#contact ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  section#contact :-moz-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  section#contact ::-moz-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  section#contact :-ms-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+ 
