@@ -8,5 +8,11 @@ var app = express();
 var parseUrlencoded= bodyParser.json;
 app.use(bodyParser.urlencoded({extended:true}))
 
+route.get("/list",function(request,response){
+    mongoose.model("users").find(function(err,data){
+      response.json(data)
+    })
+  
+  })
 
  module.exports=route;

@@ -1,24 +1,24 @@
 var express =require("express");
 var mongoose=require("mongoose");
 var bodyParser=require("body-parser")
-var route=express.Router()
+var route=express.Router();
 // var http = require('http');
 var app = express();
 
 var productController=require("./controllers/product");
-var adminLoginController=require("./controllers/adminLogin");
-var userController=require("./controllers/user");
-var catigoryController=require("./controllers/catigory");
-var wishListController=require("./controllers/wish-list");
-var cartController=require("./controllers/cart");
+// var adminLoginController=require("./controllers/adminLogin");
+ var userController=require("./controllers/user");
+// var catigoryController=require("./controllers/catigory");
+// var wishListController=require("./controllers/wish-list");
+// var cartController=require("./controllers/cart");
 
 var productModel=require("./models/product");
-var adminLoginModel=require("./models/adminLogin");
-var userModel=require("./models/user");
-var catigoryModel=require("./models/catigory");
-var wishListModel=require("./models/wish-list");
-var cartModel=require("./models/cart");
-
+// var adminLoginModel=require("./models/adminLogin");
+// var userModel=require("./models/user");
+// var catigoryModel=require("./models/catigory");
+// var wishListModel=require("./models/wish-list");
+// var cartModel=require("./models/cart");
+//app.use(productModel)
 var fs=require("fs");
 // var server = http.createServer(app);
 var parseUrlencoded= bodyParser.json;
@@ -35,7 +35,7 @@ app.all('*',function(request,response,next){
     next()
 })
 ///
-app.use(express.static("public"))
+//app.use(express.static("public"))
 
 //files in models
 // var files_arr=fs.readdirSync(__dirname+"/models")
@@ -44,13 +44,13 @@ app.use(express.static("public"))
 // });
 
 //product
-app.use("/product",productController);
+app.use("/pro",productController);
 
 //catigory
 // app.use("/catigory",catigoryController);
 
 //sign up
-// app.use("/user",userController);
+ app.use("/user",userController);
 
 //cart
 // app.use("/cart",cartController);
