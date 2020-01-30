@@ -44,7 +44,7 @@ app.all('*',function(request,response,next){
 // });
 
 //product
-app.use("/pro",productController);
+app.use("/product",productController);
 
 //catigory
 // app.use("/catigory",catigoryController);
